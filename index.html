@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#07131f">
+<title>Swamiye Saranam Ayyappa | Devotional Music</title>
+<style>
+:root{--bg:#07131f;--panel:#101e2b;--panel2:#172736;--text:#f6f7f8;--muted:#a6b3bf;--green:#1ed760;--gold:#f3ca78}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;min-height:100vh}
+.bg{position:fixed;inset:0;z-index:-2;overflow:hidden;background:#07131f}.bg:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(4,13,23,.76),rgba(4,13,23,.40)),linear-gradient(0deg,rgba(7,19,31,.96) 0%,rgba(7,19,31,.18) 75%)}.bg img{position:absolute;width:100%;height:100%;inset:0;object-fit:cover;object-position:center;opacity:0;filter:saturate(.9);transition:opacity 1.6s ease}.bg img.active{opacity:1}
+.layout{display:grid;grid-template-columns:235px minmax(0,1fr);min-height:100vh;padding-bottom:100px}.sidebar{position:sticky;top:0;height:calc(100vh - 100px);padding:25px 16px;background:rgba(4,12,20,.78);backdrop-filter:blur(16px);border-right:1px solid #ffffff0d}.brand{display:flex;gap:10px;align-items:center;font-weight:850;font-size:15px;margin:4px 6px 34px}.brandmark{width:39px;height:39px;border-radius:50%;display:grid;place-items:center;background:linear-gradient(140deg,#f8d991,#b57b2b);color:#1b180f;font-size:22px}.navlabel{font-size:10px;letter-spacing:.16em;color:#81909e;font-weight:800;margin:22px 10px 9px}.navitem{padding:12px 10px;border-radius:9px;color:#c8d0d7;display:flex;gap:12px;align-items:center;font-size:13px;cursor:pointer}.navitem.active,.navitem:hover{background:#ffffff12;color:white}.navicon{font-size:18px;width:22px;text-align:center}.side-note{position:absolute;bottom:20px;left:18px;right:18px;color:#7f929f;font-size:11px;line-height:1.6}
+main{min-width:0;padding:22px clamp(16px,4vw,48px) 34px}.topbar{display:flex;align-items:center;justify-content:space-between;gap:14px;margin-bottom:28px}.arrows{display:flex;gap:8px}.circle{width:34px;height:34px;border:0;border-radius:50%;background:#0008;color:#fff;font-size:20px;cursor:pointer}.tag{border:1px solid #ffffff25;background:#07131f99;border-radius:999px;padding:9px 14px;color:#dce4e9;font-size:11px;font-weight:750;letter-spacing:.08em}.hero{padding:clamp(20px,4vw,42px) 0 26px;max-width:780px}.eyebrow{color:var(--gold);letter-spacing:.2em;font-size:10px;font-weight:850;text-transform:uppercase}.hero h1{font-size:clamp(34px,5vw,66px);letter-spacing:-.055em;line-height:.99;margin:14px 0}.hero p{color:#d0dbe3;line-height:1.7;max-width:560px;font-size:14px}.hero-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:22px}.primary,.secondary{border:0;border-radius:999px;padding:12px 20px;font-weight:850;cursor:pointer}.primary{background:var(--green);color:#06150b}.secondary{background:#ffffff16;color:#fff;border:1px solid #ffffff18}.primary:hover{transform:scale(1.02)}.section{margin-top:25px}.sectionhead{display:flex;align-items:end;justify-content:space-between;gap:12px;margin-bottom:14px}.sectionhead h2{font-size:21px;letter-spacing:-.025em;margin:0}.sectionhead p{font-size:12px;color:var(--muted);margin:6px 0 0}.search{background:#ffffff12;border:1px solid #ffffff1c;border-radius:999px;padding:11px 15px;color:white;width:min(290px,100%);outline:none}.search:focus{border-color:var(--green)}.tracks{display:flex;flex-direction:column;gap:3px}.track{display:grid;grid-template-columns:35px 45px minmax(0,1fr) 65px;align-items:center;gap:12px;padding:9px 12px;border-radius:8px;cursor:pointer;color:#d9e0e5}.track:hover,.track.current{background:#ffffff14}.track.current .trackname{color:var(--green)}.tracknum{text-align:center;color:#9eabb6;font-size:12px}.cover{width:44px;height:44px;border-radius:7px;background:linear-gradient(135deg,#1d5663,#b9853e);display:grid;place-items:center;color:#ffe0a1;font-size:20px;overflow:hidden}.trackname{font-weight:700;font-size:13px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.artist{font-size:11px;color:#9fadb8;margin-top:4px}.duration{color:#a7b2bc;font-size:12px;text-align:right}.empty{border:1px dashed #ffffff30;padding:26px;border-radius:12px;color:#c5d0d8;font-size:13px;line-height:1.7;text-align:center}.empty strong{color:white}.filebox{margin-top:20px;background:#ffffff0c;border:1px solid #ffffff16;border-radius:14px;padding:17px;display:flex;justify-content:space-between;align-items:center;gap:14px;flex-wrap:wrap}.filebox strong{font-size:13px}.filebox p{font-size:11px;color:var(--muted);margin:5px 0 0}.filebox input{display:none}.filebtn{display:inline-flex;align-items:center;gap:8px;background:#ffffff18;border:1px solid #ffffff1b;color:#fff;padding:10px 14px;border-radius:999px;font-size:12px;font-weight:750;cursor:pointer}.footer{font-size:11px;color:#8294a2;margin-top:35px;line-height:1.6}
+.player{position:fixed;z-index:10;bottom:0;left:0;right:0;height:92px;background:rgba(9,18,27,.97);backdrop-filter:blur(18px);border-top:1px solid #ffffff17;display:grid;grid-template-columns:minmax(160px,1fr) minmax(250px,1.3fr) minmax(100px,1fr);align-items:center;padding:12px 22px;gap:20px}.playing{display:flex;align-items:center;gap:12px;min-width:0}.mini-cover{width:52px;height:52px;border-radius:6px;background:linear-gradient(135deg,#1d5663,#b9853e);display:grid;place-items:center;font-size:22px;flex-shrink:0}.playing-info{min-width:0}.playing-title{font-weight:750;font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.playing-artist{font-size:10px;color:var(--muted);margin-top:5px}.likehint{color:#9eabb6;margin-left:auto;font-size:17px}.controls{display:flex;flex-direction:column;align-items:center;gap:8px}.buttons{display:flex;align-items:center;gap:20px}.control{border:0;background:none;color:#d8e0e6;font-size:17px;cursor:pointer;padding:0}.control.play{width:34px;height:34px;border-radius:50%;background:white;color:#101820;font-size:15px}.control:hover{color:var(--green)}.progressrow{width:100%;display:flex;align-items:center;gap:8px;font-size:9px;color:#95a3ae}.range{width:100%;accent-color:var(--green);cursor:pointer;height:4px}.volume{display:flex;align-items:center;justify-content:flex-end;gap:10px;color:#a8b4bd}.volume input{width:90px;accent-color:var(--green)}.smallbtn{background:none;border:0;color:#bac5ce;cursor:pointer;font-size:15px}
+@media(max-width:760px){.layout{grid-template-columns:1fr}.sidebar{display:none}main{padding:16px 14px 28px}.topbar{margin-bottom:12px}.hero{padding:20px 0}.hero h1{font-size:42px}.sectionhead{align-items:flex-start;flex-direction:column}.search{width:100%}.track{grid-template-columns:24px 42px minmax(0,1fr) 42px;gap:8px;padding:8px 5px}.cover{width:40px;height:40px}.trackname{font-size:12px}.duration{font-size:10px}.player{height:100px;padding:10px 12px;grid-template-columns:minmax(0,1fr) auto;gap:10px}.playing{gap:8px}.mini-cover{width:42px;height:42px}.playing-title{max-width:155px}.likehint,.volume{display:none}.controls{grid-column:2;grid-row:1}.buttons{gap:12px}.progressrow{width:min(210px,45vw)}.controls .buttons .control:nth-child(1),.controls .buttons .control:nth-child(4){display:none}.footer{padding-bottom:8px}}
+</style>
+</head>
+<body>
+<div class="bg" aria-hidden="true">
+<img class="active" src="backgrounds/ayyappa-devotional-poster.png" alt="">
+<img src="backgrounds/pamba-sunrise.png" alt="">
+<img src="backgrounds/pamba-river.png" alt="">
+<img src="backgrounds/temple-dusk.png" alt="">
+<img src="backgrounds/pilgrim-twilight.png" alt="">
+<img src="backgrounds/sannidhanam-night.png" alt="">
+</div>
+<div class="layout">
+<aside class="sidebar">
+<div class="brand"><div class="brandmark">ॐ</div><span>AYYAPPA<br><span style="font-size:10px;color:#9eabb6;font-weight:600;letter-spacing:.12em">DEVOTIONAL MUSIC</span></span></div>
+<div class="navlabel">YOUR SPACE</div>
+<div class="navitem active" onclick="document.getElementById('home').scrollIntoView({behavior:'smooth'})"><span class="navicon">⌂</span>Home</div>
+<div class="navitem" onclick="document.getElementById('playlist').scrollIntoView({behavior:'smooth'})"><span class="navicon">♫</span>All songs</div>
+<div class="navlabel">LISTEN</div>
+<div class="side-note">A peaceful place for Ayyappa devotional music.<br><br>Swamiye Saranam Ayyappa 🙏</div>
+</aside>
+<main id="home">
+<div class="topbar"><div class="arrows"><button class="circle" aria-label="Back" onclick="history.back()">‹</button><button class="circle" aria-label="Forward" onclick="history.forward()">›</button></div><div class="tag">SWAMIYE SARANAM AYYAPPA</div></div>
+<section class="hero">
+<div class="eyebrow">A devotional listening experience</div>
+<h1>Let devotion<br>fill your day.</h1>
+<p>Listen to Ayyappa devotional songs in one peaceful place, with a playlist-inspired music player and beautiful scenes from the pilgrimage.</p>
+<div class="hero-actions"><button class="primary" onclick="playFirst()">▶ &nbsp; Play music</button></div>
+</section>
+<section class="section" id="playlist">
+<div class="sectionhead"><div><h2>Your playlist</h2><p id="countLabel">Songs listed in playlist.json appear here.</p></div><input class="search" id="search" placeholder="⌕  Search songs…" aria-label="Search songs"></div>
+<div class="tracks" id="tracks"><div class="empty"><strong>Your devotional playlist is ready.</strong><br>Loading songs from your playlist music folder…</div></div>
+</section>
+</main>
+</div>
+<div class="player">
+<div class="playing"><div class="mini-cover">ॐ</div><div class="playing-info"><div class="playing-title" id="nowTitle">Nothing playing yet</div><div class="playing-artist" id="nowArtist">Choose a song to begin</div></div><span class="likehint">♫</span></div>
+<div class="controls"><div class="buttons"><button class="control" title="Shuffle playlist" id="shuffle">⤨</button><button class="control" title="Previous song" id="prev">|◀</button><button class="control play" title="Play or pause" id="play">▶</button><button class="control" title="Next song" id="next">▶|</button><button class="control" title="Repeat current song" id="repeat">↻</button></div><div class="progressrow"><span id="currentTime">0:00</span><input class="range" id="progress" type="range" min="0" max="100" value="0" aria-label="Song progress"><span id="duration">0:00</span></div></div>
+<div class="volume"><span>🔊</span><input id="volume" type="range" min="0" max="1" step=".01" value=".8" aria-label="Volume"></div>
+</div>
+<audio id="audio"></audio>
+<script>
+const audio=document.getElementById('audio');
+let songs=[],current=-1,shuffle=false,repeat=false;
+const $=id=>document.getElementById(id);
+function timeFmt(sec){if(!Number.isFinite(sec)||sec<0)return '0:00';return Math.floor(sec/60)+':'+String(Math.floor(sec%60)).padStart(2,'0')}
+function render(){
+ const q=$('search').value.toLowerCase().trim(), box=$('tracks');box.innerHTML='';
+ const shown=songs.map((s,i)=>({...s,index:i})).filter(s=>(s.title+' '+s.artist).toLowerCase().includes(q));
+ $('countLabel').textContent=songs.length?`${songs.length} song${songs.length===1?'':'s'} available from your playlist`:'Songs listed in playlist.json appear here.';
+ if(!shown.length){box.innerHTML='<div class="empty">No songs found. Add audio files to the server <strong>songs/</strong> folder, then refresh.</div>';return}
+ shown.forEach((s,j)=>{
+  const row=document.createElement('div');row.className='track'+(s.index===current?' current':'');
+  row.innerHTML=`<div class="tracknum">${s.index===current&&!audio.paused?'♫':String(j+1).padStart(2,'0')}</div><div class="cover">♪</div><div style="min-width:0"><div class="trackname"></div><div class="artist"></div></div><div class="duration">${s.duration||'—'}</div>`;
+  row.querySelector('.trackname').textContent=s.title;row.querySelector('.artist').textContent=s.artist||'Ayyappa devotional song';
+  row.addEventListener('click',()=>playSong(s.index));box.appendChild(row);
+ });
+}
+function playSong(i){if(!songs.length)return;current=(i+songs.length)%songs.length;audio.src=songs[current].url;audio.load();$('nowTitle').textContent=songs[current].title;$('nowArtist').textContent=songs[current].artist||'Ayyappa devotional song';audio.play().then(()=>{$('play').textContent='Ⅱ'}).catch(()=>{$('play').textContent='▶'});render()}
+function playFirst(){if(!songs.length)return;playSong(current<0?0:current)}
+async function loadSongs(){
+ const box=$('tracks');
+ try{
+   const response=await fetch('./playlist.json',{cache:'no-store'});
+   if(!response.ok)throw new Error('playlist.json returned '+response.status);
+   const data=await response.json();
+   songs=(Array.isArray(data)?data:(data.songs||[])).map(s=>({
+     title:s.title||String(s.file||'').split('/').pop().replace(/\.[^/.]+$/,'').replace(/[_-]+/g,' '),
+     artist:s.artist||'Ayyappa devotional song',
+     url:s.file?new URL(s.file,document.baseURI).href:(s.url||''),
+     duration:s.duration||''
+   })).filter(s=>s.url);
+   render();
+   if(!songs.length)box.innerHTML='<div class="empty"><strong>Your playlist is ready.</strong><br>Add your audio files to the <strong>songs/</strong> folder and list each one in <strong>playlist.json</strong>, then commit the changes to GitHub.</div>';
+   $('countLabel').textContent=songs.length?`${songs.length} song${songs.length===1?'':'s'} in your playlist`:'Add songs in playlist.json to get started.';
+ }catch(err){
+   box.innerHTML='<div class="empty"><strong>Could not load playlist.json.</strong><br>Make sure playlist.json is uploaded in the same folder as index.html.</div>';
+   $('countLabel').textContent='Playlist file not found';
+ }
+}
+$('search').addEventListener('input',render);
+$('play').addEventListener('click',()=>{if(!songs.length)return;if(current<0){playSong(0);return}if(audio.paused){audio.play().then(()=>$('play').textContent='Ⅱ').catch(()=>{});}else audio.pause()});
+$('next').addEventListener('click',()=>{if(songs.length)playSong(shuffle?Math.floor(Math.random()*songs.length):current+1)});
+$('prev').addEventListener('click',()=>{if(songs.length)playSong(current<=0?songs.length-1:current-1)});
+$('shuffle').addEventListener('click',()=>{shuffle=!shuffle;$('shuffle').style.color=shuffle?'var(--green)':'#d8e0e6'});
+$('repeat').addEventListener('click',()=>{repeat=!repeat;audio.loop=repeat;$('repeat').style.color=repeat?'var(--green)':'#d8e0e6'});
+audio.addEventListener('play',()=>{$('play').textContent='Ⅱ';render()});
+audio.addEventListener('pause',()=>{$('play').textContent='▶';render()});
+audio.addEventListener('ended',()=>{if(!repeat&&songs.length)playSong(shuffle?Math.floor(Math.random()*songs.length):current+1)});
+audio.addEventListener('loadedmetadata',()=>{if(current>=0)songs[current].duration=timeFmt(audio.duration);$('duration').textContent=timeFmt(audio.duration);render()});
+audio.addEventListener('timeupdate',()=>{$('currentTime').textContent=timeFmt(audio.currentTime);$('duration').textContent=timeFmt(audio.duration);$('progress').value=audio.duration?audio.currentTime/audio.duration*100:0});
+$('progress').addEventListener('input',e=>{if(audio.duration)audio.currentTime=Number(e.target.value)/100*audio.duration});
+$('volume').addEventListener('input',e=>audio.volume=Number(e.target.value));audio.volume=.8;
+// Rotate through the supplied high-resolution devotional backgrounds every 10 seconds.
+const bgImages=Array.from(document.querySelectorAll('.bg img'));
+let bgIndex=0;
+if(bgImages.length>1){setInterval(()=>{bgImages[bgIndex].classList.remove('active');bgIndex=(bgIndex+1)%bgImages.length;bgImages[bgIndex].classList.add('active');},10000);}
+loadSongs();
+</script>
+</body>
+</html>
