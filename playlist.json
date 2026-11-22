@@ -1,1 +1,43 @@
-[]
+
+[
+  {
+    "title": "Makaranilakulir",
+    "file": "songs/song01.mp3"
+  },
+  {
+    "title": "Omkara Roopam",
+    "file": "songs/song02.mp3"
+  },
+  {
+    "title": "Pamba Ganapathi",
+    "file": "songs/song03.mp3"
+  },
+  {
+    "title": "Ambodu Villodu",
+    "file": "songs/c.mp3"
+  },
+  {
+    "title": "Irumudikettum Peri",
+    "file": "songs/song05.mp3"
+  },
+  {
+    "title": "Kannolam Kandathu Pora",
+    "file": "songs/song06.mp3"
+  },
+  {
+    "title": "Chandanathin Manamulla",
+    "file": "songs/song07.mp3"
+  },
+  {
+    "title": "Petakum Patinum",
+    "file": "songs/song08.mp3"
+  },
+  {
+    "title": "Omkara Roopam",
+    "file": "songs/song09.mp3"
+  },
+  {
+    "title": "Kanni Ayyappane",
+    "file": "songs/song10.mp3"
+  }
+]
